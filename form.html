@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMl FORMS</title>
+</head>
+<body>
+    
+    <form>
+
+        <input type="text" placeholder="Enter username" required
+        maxlength="10" minlength="8" size="40px">
+        <hr>
+        <input type="password" placeholder="Enter Password" >
+        <hr>
+        <input type="number" placeholder="Age" min="1" max="60">
+        <hr>
+        <input type="email" placeholder="Email">
+        <hr>
+        <input type="url" placeholder="Enter Your Website URL">
+        <hr>
+
+        <textarea cols="40" rows="8" placeholder="Enter Your Feedback"></textarea>
+        <hr>
+
+        <label for="">Adhar Card: </label>
+        <!-- <input type="file" accept="image/*"> -->
+        <input type="file" accept="application/pdf">
+        <hr>
+
+        <label for="">Gender: </label>
+        <input type="radio" name="gender"><label for="">Male</label>
+        <input type="radio" name="gender"><label for="">Female</label>
+        <input type="radio" name="gender"><label for="">Others</label>
+
+        <hr>
+
+        <label for="">Skills: </label>
+        <input type="checkbox" name=""><label for="">Java</label>
+        <input type="checkbox" name=""><label for="">SQl</label>
+        <input type="checkbox" name=""><label for="">Python</label>
+
+        <hr>
+        <!-- <input type="submit" value="Login"> -->
+        <button type="submit">Signup</button>
+        <input type="reset" value="Clear Form data">
+
+    </form>
+
+</body>
+</html>
